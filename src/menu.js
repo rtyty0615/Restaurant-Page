@@ -1,0 +1,36 @@
+import imgMenuDekas from "./MenuDeKas.jpg";
+export default function menu() {
+    const contentMenu = document.querySelector('#content');
+    contentMenu.innerHTML = "";
+    const imgMenu = document.createElement("img");
+    imgMenu.src = imgMenuDekas;
+    imgMenu.alt = "Menu";
+    imgMenu.width = 300;
+    contentMenu.appendChild(imgMenu);
+    const titleMenu = document.createElement("h1");
+    titleMenu.textContent = "MENU";
+    contentMenu.appendChild(titleMenu);
+    const divMenu = document.createElement("div");
+    const dinner = document.createElement("h3");
+    dinner.textContent = "DINNER";
+    divMenu.appendChild(dinner);
+    const lunch = document.createElement("h3");
+    lunch.textContent = "LUNCH";
+    divMenu.appendChild(lunch);
+    const dinner5 = document.createElement("h5");
+    dinner5.textContent = "Menu 5 courses: € 84";
+    divMenu.appendChild(dinner5);
+    const dinner6 = document.createElement("h5");
+    dinner6.textContent = "Menu 6 courses: € 92,50";
+    divMenu.appendChild(dinner6);
+    const lunch3 = document.createElement("h5");
+    lunch3.textContent = "Menu 3 courses: € 53";
+    divMenu.appendChild(lunch3);
+    const lunch4 = document.createElement("h5");
+    lunch4.textContent = "Menu 4 courses: € 65";
+    divMenu.appendChild(lunch4);
+    const lunch5 = document.createElement("h5");
+    lunch5.textContent = "Menu 5 courses: € 73,50";
+    divMenu.appendChild(lunch5);
+    contentMenu.appendChild(divMenu);
+}

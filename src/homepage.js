@@ -2,7 +2,6 @@ import imgDeKas from "./AboutDeKas.jpeg";
 
 export default function homepage() {
     const contentHomepage = document.querySelector('#content');
-    contentHomepage.innerHTML = "";
     const imgHomepage = document.createElement("img");
     imgHomepage.src = imgDeKas;
     imgHomepage.alt = "About De Kas";

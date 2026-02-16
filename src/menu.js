@@ -1,7 +1,6 @@
 import imgMenuDekas from "./MenuDeKas.jpg";
 export default function menu() {
     const contentMenu = document.querySelector('#content');
-    contentMenu.innerHTML = "";
     const imgMenu = document.createElement("img");
     imgMenu.src = imgMenuDekas;
     imgMenu.alt = "Menu";

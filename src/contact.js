@@ -2,9 +2,8 @@ import imgContactDeKas from "./ContactDeKas.jpg";
 
 export default function homepage() {
     const contentContact = document.querySelector('#content');
-    contentContact.innerHTML = "";
     const imgContact = document.createElement("img");
-    imgContact.src = imgDeKas;
+    imgContact.src = imgContactDeKas;
     imgContact.alt = "De Kas Contact";
     imgContact.width = 300;  
     contentContact.appendChild(imgContact);

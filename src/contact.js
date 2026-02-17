@@ -5,7 +5,7 @@ export default function homepage() {
     const imgContact = document.createElement("img");
     imgContact.src = imgContactDeKas;
     imgContact.alt = "De Kas Contact";
-    imgContact.width = 300;  
+    imgContact.id = "image";
     contentContact.appendChild(imgContact);
     const titleContact = document.createElement("h1");
     titleContact.textContent = "Contact";

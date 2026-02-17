@@ -1,0 +1,57 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body{
+    margin: 30px;
+}
+
+header{
+ margin-bottom: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(107, 0, 7);
+    color:bisque;
+    border-radius: 15px
+}
+
+#image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#menu-meal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px
+}
+
+#menu-meal > :last-child {
+    grid-area: 4 / 2 / 5 / 3;
+}

@@ -5,7 +5,7 @@ export default function homepage() {
     const imgHomepage = document.createElement("img");
     imgHomepage.src = imgDeKas;
     imgHomepage.alt = "About De Kas";
-    imgHomepage.width = 300;  
+    imgHomepage.id = "image";  
     contentHomepage.appendChild(imgHomepage);
     const titleAbout = document.createElement("h1");
     titleAbout.textContent = "ABOUT DE KAS";

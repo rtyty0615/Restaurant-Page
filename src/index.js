@@ -1,6 +1,7 @@
 import homepage from "./homepage.js";
 import menu from "./menu.js";
 import contact from "./contact.js";
+import "./styles.css";
 
 function tab(){
     const navButtons = document.querySelectorAll("nav button");
